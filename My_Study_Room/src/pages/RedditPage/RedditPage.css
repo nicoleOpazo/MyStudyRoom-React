@@ -1,0 +1,7 @@
+.containerApp {
+    display: flex;
+    background-image: url(../../components/assets/LoginAssets/note1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

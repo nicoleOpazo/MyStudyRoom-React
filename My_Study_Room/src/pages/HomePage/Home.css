@@ -1,0 +1,227 @@
+.HomeView{
+   /*  background-image:url(/src/assets/fondo.jpg) ; */
+    background-image:url(/src//components/assets/HomePageAssets/fondo2.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 14rem;
+  text-align: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (max-width: 768px) {
+  header.masthead {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 50px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  header.masthead .masthead-heading {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 3rem;
+    margin: -50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  header.masthead .masthead-heading{
+    margin-left: -3rem;
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 534px) {
+  header.masthead .masthead-heading{
+    font-size: 2rem;
+    word-break: break-all;
+  }
+}
+@media only screen and (max-width: 436px) {
+  header.masthead .masthead-heading{
+    font-size: 1.5rem;
+  }
+}
+
+
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.img-brand {
+  height: 2.75rem;
+}
+
+
+.mainblur{
+    backdrop-filter: blur(10px);
+    border: solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.saludo{
+    margin-bottom: 0px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo img{
+    margin: 2px;
+    align-self: center;
+    position: relative;
+    bottom: 20px;
+    width: 300px;
+}
+
+.sesion{
+    margin-bottom: 50px;
+    padding: 300px;
+    width: 300px !important;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem !important;
+    font-size: 1rem !important;
+}
+
+.imgtimer{
+  width: 3rem;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .sesion {
+    gap: 1rem;
+  }
+  .me-5{
+    margin-left: 46px;
+  }
+}
+
+
+.servicios{
+  padding: 50px;
+}
+
+.iconoytexto{
+  box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+  width: 500px;
+  gap: 3px;
+
+}
+
+.iconoytexto i{
+  color:#4755a5
+}
+
+    
+
+
+
+.btn-primary{
+  background-color: #2F3367 !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+
+.btn-primary:hover{
+  background-color: #bb00ff !important;
+}
+
+.saludo2{
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+  .iconoytexto {
+    gap: 1px;
+    margin: 1rem;
+  }}
+
+  .visionmision {
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+    gap:2rem;
+  }
+
+  .visionmision h4{
+  color:#4755a5;
+
+  }
+
+  .iconoytexto{
+    border-radius: 20px;
+  }
+
+  .contenedorvision{
+    text-align: center;
+  }

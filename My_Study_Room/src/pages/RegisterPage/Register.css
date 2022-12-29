@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+html {
+    height: 100vh;
+
+}
+
+.bodyRegister{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url("./note3.png");
+
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    min-height: 100vh;
+
+}
+
+h1 {
+    color: #2F3367;
+    font-family: 'Poppins';
+    font-style: normal;
+
+    display: flex;
+    justify-content: center;
+}
+
+label,
+input {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.form-label {
+    color: #2F3367;
+    font-size: large;
+}
+
+.form-control::placeholder {
+    color: rgba(0, 0, 0, 0.329);
+    font-size: smaller;
+}
+
+.bodyRegister .container{
+
+    background: rgb(255, 255, 255) ;
+    border-radius: 7px;
+    box-shadow: 0 4px 30px rgba(38, 0, 121, 0.59);
+    border: 1px solid rgba(38, 0, 121, 0.59);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+
+}
+
+.opcbtn {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.opcbtn button{
+    background-color: #2F3367;
+}
+
+.opcbtn button:hover{
+    background-color: #bb00ff;
+}
+
+.opcbtn button a{
+    color: white;
+}
+.bgimg {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-size: cover;
+}
+
+.btn-outline-info {
+    border-color: #2F3367;
+    background-color: #ffffff;
+    color: #2F3367;
+    width: fit-content;
+
+}
+
+
+
+.btn-success {
+    background-color: #2F3367;
+    width: fit-content;
+
+}
+
+.btn-success:hover {
+    background-color: #bb00ff;
+}
+
+@media (max-width:1199px) {
+    .opcbtc {
+        display: block;
+        width: max-content;
+    }
+}

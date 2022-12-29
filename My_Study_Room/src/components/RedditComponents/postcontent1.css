@@ -1,0 +1,20 @@
+.postcontent1{
+    text-align: center;
+
+    font-size: x-large;
+    width: 55;
+    justify-content: center;
+    align-items: center;
+}
+
+.postcontent1 img{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 650px;
+}
+
+.postcontent1 span{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}

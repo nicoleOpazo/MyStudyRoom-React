@@ -1,0 +1,50 @@
+.headercomponent{
+    width: 100vw;
+}
+
+.headercomponent .navbarreddit {
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+.headercomponent .navbarreddit a {
+    color: white;
+}
+
+.headerysidenav{
+    display: flex;
+    flex-direction: row;
+    background-image: url("../LoginAssets/note1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgycontent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5em;
+    backdrop-filter: blur(30px);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: 60rem;
+    border: solid 3px;
+
+background: rgba(0,94,113,1) ;
+border-radius: 10px;
+
+}
+
+.imgycontent h1{
+    color: white;
+}
+
+.imgpost img{
+    width: 20rem;
+}
+
+.contentpost{
+    word-wrap: break-word;
+    margin: 0 10rem 0 10rem;
+    color: white;
+}

@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.mainViewTimer :fullscreen {
+    background-image: url(../../components/assets/MainViewAssets/lofi-wpp.png);
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.mainViewTimer {
+    background-image: url(../../components/assets/MainViewAssets/lofi-wpp.png);
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(35px);
+    -webkit-backdrop-filter: blur(35px);
+}
+
+.mainViewTimer i {
+    display: flex;
+    padding-right: 15px;
+    padding-bottom: 9px;
+    color: #d0d0d0;
+}
+
+.side-nav {
+    position: absolute;
+}
+
+/*NavBar*/
+.nav-bar .li-noti {
+    list-style: none;
+    padding-top: 5px;
+}
+
+.nav-bar h5 {
+    font-size: medium;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+}
+
+.nav-bar .cont-not {
+    background-color: rgba(0, 0, 0, 0.77);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.245);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.056);
+    border-left: 1px solid rgba(255, 255, 255, 0.056);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 25px;
+
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-top: 3px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.nav-bar .btn-notificaiones {
+    width: 42px;
+    height: 40px;
+}
+
+.nav-bar .fa-bell {
+    padding-top: 7px;
+    padding-left: 11px;
+}
+
+.nav-bar .cont-head {
+    display: flex;
+    align-items: center;
+
+    /* background-color: transparent;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.245);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.056);
+    border-left: 1px solid rgba(255, 255, 255, 0.056);
+    backdrop-filter: blur(5px);
+    border-radius: 4px; */
+    background-color: transparent;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.75);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    
+    padding-left: 5px;
+    padding-right: 7px; 
+}
+
+.nav-bar .btn-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+}
+
+.nav-bar .fa-user-alt {
+    padding-top: 9px;
+    padding-left: 8px;
+}
+
+/* Botón zen */
+.mainViewTimer .btn-zen {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+}
+
+.mainViewTimer .fa-expand {
+    padding-top: 9px;
+    padding-left: 7px;
+}
+
+.mainViewTimer .switch-theme {
+    margin-right: 5%;
+}
+
+.mainViewTimer .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.mainViewTimer .slider {
+    position: absolute;
+    cursor: pointer;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    /* background-image: url(./day-sky.jpg);  */
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: bottom;
+    background-color: rgb(209, 171, 21);
+
+    transition: 0.3s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3.7px;
+    bottom: 3px;
+    transition: 0.3s;
+
+    background-color: white;
+}
+
+input:checked+.slider {
+    /* background-image: url(./blue-starry-night.jpg); */
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: bottom;
+    background-color: rgb(46, 46, 46);
+}
+
+input:checked+.slider:before {
+    transform: translateX(14px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/* TIMER  */
+
+.timer {
+    /* padding-top: ; */
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50%;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 298px;
+    width: 305px;
+    left: 48rem;
+    top: 15rem;
+}
+
+.playButton {
+    background-color: transparent;
+    color: white;
+    border: none;
+    display: inline-block;
+    width: 70px;
+}
+
+.labelSettings {
+    display: block;
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+    width: 400px;
+    height: 340px;
+    padding: 30px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    left: 45rem;
+    top: 15rem;
+}
+
+.labelSettings label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.react-draggable {
+    width: 342px;
+    z-index: 0;
+    height: 340px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: absolute;
+    bottom: 50;
+    left: 31rem;
+    top: 9rem;
+}

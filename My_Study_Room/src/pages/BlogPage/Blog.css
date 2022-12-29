@@ -1,0 +1,10 @@
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url('/src/components/assets/LoginAssets/note1.png');
+        background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
