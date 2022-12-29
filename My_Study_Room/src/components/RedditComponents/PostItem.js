@@ -42,13 +42,42 @@ export default function PostItem() {
             <div class="d-flex justify-content-between align-items-center">
               <div class="user d-flex flex-row align-items-center">
                 <img
-                  src="https://woc.aises.org/sites/default/files/styles/image730x495/public/March2020-Student-Illo-BLOGPOST-FNL.jpg?itok=sfPCAQLh"
+                  src="https://web-static.wrike.com/cdn-cgi/image/width=900,format=auto/blog/content/uploads/2018/11/Time_Management_Apps_You_Should_Start_Using_Yesterday_1.jpg?av=205d85987f44f0b5b87a28ae569e8492"
                   width="100"
                   class="user-img"
                 />
                 <span class="ms-3">
                   <small class="font-weight-bold ms-4">
-                    <h3><a href="http://localhost:3000/post1">Mentalidades</a></h3>
+                    <h3><a href="/Post2">Gestión del tiempo</a></h3>
+                  </small>
+                </span>
+              </div>
+
+              <small>2 days ago</small>
+            </div>
+
+            <div class="action d-flex justify-content-between mt-2 align-items-center">
+              <div class="reply px-4 gp-">
+                <span class="dots"> Concentración</span>
+                <span class="dots"> Gestión del tiempo</span>
+                <span class="dots"> Puntualidad</span>
+              </div>
+
+            </div>
+          </div>
+      <br></br>
+
+      <div class="card p-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="user d-flex flex-row align-items-center">
+                <img
+                  src="https://www.nopcommerce.com/images/thumbs/0005720_coming-soon-page_550.jpeg"
+                  width="100"
+                  class="user-img"
+                />
+                <span class="ms-3">
+                  <small class="font-weight-bold ms-4">
+                    <h3><a role="link" aria-disabled="true">Pronto</a></h3>
                   </small>
                 </span>
               </div>
@@ -70,13 +99,13 @@ export default function PostItem() {
             <div class="d-flex justify-content-between align-items-center">
               <div class="user d-flex flex-row align-items-center">
                 <img
-                  src="https://woc.aises.org/sites/default/files/styles/image730x495/public/March2020-Student-Illo-BLOGPOST-FNL.jpg?itok=sfPCAQLh"
+                  src="https://www.nopcommerce.com/images/thumbs/0005720_coming-soon-page_550.jpeg"
                   width="100"
                   class="user-img"
                 />
                 <span class="ms-3">
                   <small class="font-weight-bold ms-4">
-                    <h3><a href="http://localhost:3000/post1">Mentalidades</a></h3>
+                  <h3><a role="link" aria-disabled="true">Pronto</a></h3>
                   </small>
                 </span>
               </div>
@@ -98,13 +127,13 @@ export default function PostItem() {
             <div class="d-flex justify-content-between align-items-center">
               <div class="user d-flex flex-row align-items-center">
                 <img
-                  src="https://woc.aises.org/sites/default/files/styles/image730x495/public/March2020-Student-Illo-BLOGPOST-FNL.jpg?itok=sfPCAQLh"
+                  src="https://www.nopcommerce.com/images/thumbs/0005720_coming-soon-page_550.jpeg"
                   width="100"
                   class="user-img"
                 />
                 <span class="ms-3">
                   <small class="font-weight-bold ms-4">
-                    <h3><a href="/post1">Mentalidades</a></h3>
+                  <h3><a role="link" aria-disabled="true">Pronto</a></h3>
                   </small>
                 </span>
               </div>
@@ -121,33 +150,6 @@ export default function PostItem() {
             </div>
           </div>
       <br></br>
-
-      <div class="card p-3">
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="user d-flex flex-row align-items-center">
-                <img
-                  src="https://woc.aises.org/sites/default/files/styles/image730x495/public/March2020-Student-Illo-BLOGPOST-FNL.jpg?itok=sfPCAQLh"
-                  width="100"
-                  class="user-img"
-                />
-                <span class="ms-3">
-                  <small class="font-weight-bold ms-4">
-                    <h3><a href="http://localhost:3000/post1">Mentalidades</a></h3>
-                  </small>
-                </span>
-              </div>
-
-              <small>2 days ago</small>
-            </div>
-
-            <div class="action d-flex justify-content-between mt-2 align-items-center">
-              <div class="reply px-4 gp-">
-                <span class="dots"> Concentración</span>
-                <span class="dots"> Mentalidad de crecimiento</span>
-              </div>
-
-            </div>
-          </div>
       <br></br>
           
           </div>

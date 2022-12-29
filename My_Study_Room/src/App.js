@@ -8,6 +8,7 @@ import SideNavComponent from "./components/RedditComponents/SideNavComponent";
 import MainComponents from "./components/RedditComponents/MainComponents";
 import RedditPage from "./pages/RedditPage/RedditPage";
 import Post1Blog from "./pages/RedditPage/RedditPostPages/Post1Blog";
+import Post2Blog from "./pages/RedditPage/RedditPostPages/Post2Blog";
 
 
 const App = ()=>{
@@ -21,6 +22,7 @@ const App = ()=>{
         <Route path = "/Profile" element={<ProfilePage/>}/>
         <Route path = "/Reddit" element={<RedditPage/>} />
         <Route path = "/Post1" element={<Post1Blog/>} />
+        <Route path = "/Post2" element={<Post2Blog/>} />
       </Routes>
     </BrowserRouter>
   )
