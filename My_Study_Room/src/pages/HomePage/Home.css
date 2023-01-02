@@ -225,3 +225,9 @@ header.masthead .masthead-heading {
   .contenedorvision{
     text-align: center;
   }
+
+  @media only screen and (max-width: 768px) {
+    .visionmision {
+display: flex;
+flex-direction: column;
+    }}

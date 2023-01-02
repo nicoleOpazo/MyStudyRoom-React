@@ -15,8 +15,8 @@
     min-height: 100vh;
     background-size: cover;
     background-position: center;
-    backdrop-filter: blur(35px);
-    -webkit-backdrop-filter: blur(35px);
+/*     backdrop-filter: blur(35px);
+    -webkit-backdrop-filter: blur(35px); */
 }
 
 .mainViewTimer i {
@@ -249,8 +249,10 @@ input:checked+.slider:before {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    position: absolute;
     bottom: 50;
-    left: 31rem;
-    top: 9rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+
 }

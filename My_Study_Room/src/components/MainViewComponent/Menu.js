@@ -3,6 +3,7 @@ import "./Menu.css";
 import { useState } from "react";
 import * as mdb from 'mdb-ui-kit'; //lib
 import Draggable from "react-draggable";
+import Background from "../BackgroundComponents/Background";
 
 
 const MenuComponent = () => {
@@ -65,7 +66,7 @@ const MenuComponent = () => {
                         <button
                             className="btn-menu align-items-center">
                             <i class="fas fa-images fa-lg"></i>
-                            <small style={{ color: 'white' }}>Fondos</small>
+                            <small><Background/></small>
                         </button>
                     </li>
 

@@ -10,7 +10,7 @@ const TeamComponent = () =>{
                     <h3 class="section-subheading text-muted">Focus</h3>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-7">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src={require('../assets/HomePageAssets/marco.png')} alt="marco" />
                             <h4>Marco Povea</h4>
@@ -30,7 +30,7 @@ const TeamComponent = () =>{
                             <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/nicole-opazo-aranda/" aria-label="Nicole Opazo LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-7">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src={require('../assets/HomePageAssets/consu.png')} alt="..." />
                             <h4>Consuelo Silva</h4>
@@ -40,7 +40,7 @@ const TeamComponent = () =>{
                             <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/consuelo-silva-cabrera-4b532915b/" aria-label="Consuelo Silva LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src={require('../assets/HomePageAssets/nico.png')} alt="..." />
                             <h4>Nicolás Bustamante</h4>
