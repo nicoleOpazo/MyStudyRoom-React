@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "../../pages/MainViewPage/Styles.css";
 import {
   NavBarComponent, MenuComponent,
-  ThemeSwitchComponent
+  BackgroundVideo
 } from "../../components";
 import Draggable from "react-draggable";
 import { FullScreen, useFullScreenHandle } from "react-full-screen";
@@ -36,6 +36,7 @@ const MainView = () => {
   return (
     <div class="mainViewTimer">
       <FullScreen handle={handle}>
+        <BackgroundVideo/>
         <NavBarComponent/> 
         
           <div class="d-flex ms-auto align-items-center">
