@@ -4,12 +4,12 @@ import { ThemeSwitchComponent } from "../../components";
 import { FullScreen, useFullScreenHandle } from "react-full-screen";
 
 
-const NavBarComponent = ({infoButtom, handleOnClick}) => {
+const NavBarComponent = ({infoButtom, handleOnClick,onButtonClick}) => {
     const [show, toggleShow] = useState(true);
     const handle = useFullScreenHandle();
 
     return (
-        <FullScreen handle={handle}> 
+       /*  <FullScreen handle={handle}>  */
         <div className="nav-bar">
             {/*Dentro de nav-bar:
                 1. Barra de navegación principal
@@ -59,14 +59,14 @@ const NavBarComponent = ({infoButtom, handleOnClick}) => {
                     <button
                         type="button"
                         class="btn-zen btn-dark px-1 me-3"
-                        onClick={handle.enter}>
+                        onClick={onButtonClick}>
                         <i class="fas fa-expand fa-lg"></i>
                     </button>
                 </div>
                 <ThemeSwitchComponent round={true} />
             </div>
         </div>
-        </FullScreen>
+        /* </FullScreen> */
 
     );
 };

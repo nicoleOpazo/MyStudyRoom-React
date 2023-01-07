@@ -9,6 +9,8 @@ import MainComponents from "./components/RedditComponents/MainComponents";
 import RedditPage from "./pages/RedditPage/RedditPage";
 import Post1Blog from "./pages/RedditPage/RedditPostPages/Post1Blog";
 import Post2Blog from "./pages/RedditPage/RedditPostPages/Post2Blog";
+import Post3Blog from "./pages/RedditPage/RedditPostPages/Post3Blog";
+import Post4Blog from "./pages/RedditPage/RedditPostPages/Post4Blog";
 
 
 const App = ()=>{
@@ -23,6 +25,9 @@ const App = ()=>{
         <Route path = "/Reddit" element={<RedditPage/>} />
         <Route path = "/Post1" element={<Post1Blog/>} />
         <Route path = "/Post2" element={<Post2Blog/>} />
+        <Route path = "/Post3" element={<Post3Blog/>} />
+        <Route path = "/Post4" element={<Post4Blog/>} />
+
       </Routes>
     </BrowserRouter>
   )

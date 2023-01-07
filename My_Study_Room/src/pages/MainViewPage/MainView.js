@@ -32,11 +32,24 @@ const MainView = () => {
   const [workMinutes, setWorkMinutes] = useState(25);
   const [breakMinutes, setBreakMinutes] = useState(5);
 
+  //Pasandole props a fullscreen para que al momento de darle click al boton que está
+  //dentro del navbar se active el fullscreen
+
+  /* La función primero comprueba si hay un elemento en pantalla completa utilizando la propiedad fullscreenElement del objeto document. Si hay un elemento en pantalla completa (es decir, si la propiedad no es null), entonces la función llama a exitFullscreen() para salir de la pantalla completa. Si no hay ningún elemento en pantalla completa, entonces la función llama a requestFullscreen() en el elemento documentElement del objeto document para entrar en la pantalla completa. */
+
+  function enterExitFullscreen() {
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+    } else {
+      document.documentElement.requestFullscreen();
+    }
+  }
+
 
   return (
     <div class="mainViewTimer">
       <FullScreen handle={handle}>
-        <NavBarComponent/> 
+        <NavBarComponent onButtonClick={enterExitFullscreen}/> 
         
           <div class="d-flex ms-auto align-items-center">
             <MenuComponent/>
@@ -56,6 +69,7 @@ const MainView = () => {
             {showSettings ? <Settings /> : <Timer class="timer-draggable"/>}
           </SettingsContext.Provider>
         </div>
+        
       </FullScreen>
     </div>
   );

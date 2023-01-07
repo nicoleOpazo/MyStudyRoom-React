@@ -76,7 +76,7 @@ function Timer() {
       }
 
       tick(); //Si no es ninguna, es decir si está funcionando restame un segundo al contador
-    }, 100); //cada segundo
+    }, 1000); //cada segundo
 
     return () => clearInterval(interval);
   }, [settingsInfo]); //Me va a funcionar el efecto cada vez que cambie settingsInfo, cada vez que lo modifico que mi inicie el timer
@@ -128,7 +128,8 @@ function Timer() {
         />
 
         {/* Le damos un estilo a las distintas vistas que vamos a tener aquí en home, junto con el timer. */}
-        <div style={{ marginTop: "20px", marginLeft: "8.5rem" }}>
+        {/* marginLeft: "6.5rem para que play y config queden al medio, 8.5rem para que solo play quede al medio en caso de que no esté el settings buttons" */}
+        <div style={{ marginTop: "20px", marginLeft: "6.5rem" }}>
           {/* si está pausado, permite que mi boton play funcione, si no que mi boton pause si  */}
           {isPaused
             ? <PlayButton onClick={() => { setIsPaused(false); isPausedRef.current = false }} />

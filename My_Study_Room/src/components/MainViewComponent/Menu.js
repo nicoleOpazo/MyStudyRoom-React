@@ -7,7 +7,7 @@ import Background from "../BackgroundComponents/Background";
 
 
 const MenuComponent = () => {
-    const [show, toggleShow] = useState(true);
+    const [show, toggleShow] = useState(false);
 
     return (
         <div class="widthMenu">

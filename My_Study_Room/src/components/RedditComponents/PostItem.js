@@ -71,13 +71,13 @@ export default function PostItem() {
             <div class="d-flex justify-content-between align-items-center">
               <div class="user d-flex flex-row align-items-center">
                 <img
-                  src="https://www.nopcommerce.com/images/thumbs/0005720_coming-soon-page_550.jpeg"
+                  src="https://blog.formaciongerencial.com/wp-content/uploads/2022/06/Hábitos-de-Estudio-1280x640.jpeg"
                   width="100"
                   class="user-img"
                 />
                 <span class="ms-3">
                   <small class="font-weight-bold ms-4">
-                    <h3><a role="link" aria-disabled="true">Pronto</a></h3>
+                    <h3><a href="/Post3">Tips de estudio</a></h3>
                   </small>
                 </span>
               </div>
@@ -99,13 +99,13 @@ export default function PostItem() {
             <div class="d-flex justify-content-between align-items-center">
               <div class="user d-flex flex-row align-items-center">
                 <img
-                  src="https://www.nopcommerce.com/images/thumbs/0005720_coming-soon-page_550.jpeg"
+                  src="https://www.psicologosonline.cl/site/article/61730/51964/7289219a-c632-46d4-a138-6a90a9947f51_ai1.jpg"
                   width="100"
                   class="user-img"
                 />
                 <span class="ms-3">
                   <small class="font-weight-bold ms-4">
-                  <h3><a role="link" aria-disabled="true">Pronto</a></h3>
+                  <h3><a href="/Post4">Manejo del estrés</a></h3>
                   </small>
                 </span>
               </div>
