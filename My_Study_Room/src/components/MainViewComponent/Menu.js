@@ -54,13 +54,13 @@ const MenuComponent = () => {
                         </button>
                     </li>
 
-                    <li class="liMenu">
+                    {/* <li class="liMenu">
                         <button
                             className="btn-menu align-items-center">
                             <i class="fas fa-sticky-note fa-lg"></i>
                             <small style={{ color: 'white' }}>Notas</small>
                         </button>
-                    </li>
+                    </li> */}
 
                     <li class="liMenu">
                         <button
@@ -70,7 +70,7 @@ const MenuComponent = () => {
                         </button>
                     </li>
 
-                    <li class="liMenu">
+                    {/* <li class="liMenu">
                         <button
                             className="btn-menu align-items-center">
                             <i class="fas fa-calendar-alt fa-lg"></i>
@@ -84,7 +84,7 @@ const MenuComponent = () => {
                             <i class="fas fa-file-import fa-lg"></i>
                             <small style={{ color: 'white' }}>Sube tu archivo</small>
                         </button>
-                    </li>
+                    </li> */}
                 </ul>}
         </div>
     );

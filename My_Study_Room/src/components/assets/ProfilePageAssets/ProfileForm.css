@@ -1,0 +1,18 @@
+form {
+    flex: 0 0 50%;
+    margin-left: 50px;
+}
+
+.profile-form label {
+    color: #cbcbcb;
+    margin-top: 11px;
+}
+
+.profile-form h4 {
+    color: #cbcbcb;
+}
+
+.profile-form .btn-guardar {
+    margin-right: 10px;
+    margin-left: 368px;
+}

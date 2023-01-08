@@ -87,7 +87,7 @@ const UserFormRegisterComponent = ({ userAdd, usuarioEditado, setUsuarioEditado,
                                 
                                 onClick={() => userAdd(usuario)}
                             >
-                                <a href="http://localhost:3003">Registrar usuario</a>
+                                <a href='/MainView'>Registrar usuario</a>
                             </button>
                         </div>
                     )}

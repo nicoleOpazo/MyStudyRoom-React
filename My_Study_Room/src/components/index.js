@@ -14,7 +14,11 @@ import NavBarComponent from "./MainViewComponent/NavBar";
 import ThemeSwitchComponent from "./MainViewComponent/ThemeSwitch";
 import MenuComponent from "./MainViewComponent/Menu";
 
+import ProfileInfoComponent from "./ProfileComponent/ProfileInfo";
+import ProfileFormComponent from "./ProfileComponent/ProfileForm";
+
 export { MainComponent, TeamComponent, ServiciosComponent, FooterComponent, VisionComponent,
         UserFormComponent, TableUser,
         UserFormRegisterComponent, TableUserRegister,
-        NavBarComponent, ThemeSwitchComponent, MenuComponent };
+        NavBarComponent, ThemeSwitchComponent, MenuComponent,
+        ProfileInfoComponent, ProfileFormComponent };

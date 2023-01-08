@@ -3,13 +3,12 @@ import '../assets/ProfilePageAssets/SideNavProfile.css'
 
 export default function SideNavProfileComponent() {
     const menus = [
-        { to: '/r/popular', text: "Tu Perfil" },
-        { to: '/r/all', text: "Actualizar datos" }
+        { text: "Tu Perfil" },
+        { text: "Actualizar datos" }
     ]
 
     const subreddits = [
-        "Vuelve al menú",
-        "Eliminar cuneta"
+        <a href='/MainView'>Volver al menu</a>
     ]
     return (
         <div className='sidenav'>
