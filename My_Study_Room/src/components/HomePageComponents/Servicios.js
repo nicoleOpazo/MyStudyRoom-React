@@ -28,27 +28,27 @@ const ServiciosComponent = () => {
                   </div>
                   <br></br>
                   <h4>Tips/Consejos</h4>
-                  <p>PRONTO</p>
+                  <p>Blog que cuenta con información útil, para que puedas comenzar a formar tus hábitos de estudio</p>
                 </div>
               </div>
               <div class="col-xl-3 col-md-6 d-flex align-items-stretch ">
                 <div class="iconoytexto color-grey">
                   <div class="icono">
-                  <i class="fas fa-calendar-alt fa-3x"></i>
+                  <i class="fas fa-music fa-3x"></i>
                   </div>
                   <br></br>
-                  <h4>Calendario</h4>
-                  <p>PRONTO</p>
+                  <h4>Musica</h4>
+                  <p>Playlist diseñada para aumentar la concentración durante tus horas de estudio</p>
                 </div>
               </div>
               <div class="col-xl-3 col-md-6 d-flex align-items-stretch ">
                 <div class="iconoytexto">
                   <div class="icono">
-                  <i class="fas fa-cog fa-3x"></i>
+                  <i class="fas fa-clipboard-list fa-3x"></i>
                   </div>
                   <br></br>
-                  <h4>Ajustes</h4>
-                  <p>Configura todo a tu gusto</p>
+                  <h4>Todo-List</h4>
+                  <p>Una lista de tareas pendientes para mejor organización</p>
                 </div>
               </div>
             </div>
