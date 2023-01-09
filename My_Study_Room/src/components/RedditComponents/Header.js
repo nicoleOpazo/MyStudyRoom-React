@@ -34,9 +34,6 @@ export default function Header() {
     </div>
 
     <div class="d-flex align-items-center">
-      <a class="text-reset me-3" href="#">
-        <i class="fas fa-shopping-cart"></i>
-      </a>
 
       <div class="dropdown">
         <a

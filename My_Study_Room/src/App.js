@@ -11,6 +11,7 @@ import Post1Blog from "./pages/RedditPage/RedditPostPages/Post1Blog";
 import Post2Blog from "./pages/RedditPage/RedditPostPages/Post2Blog";
 import Post3Blog from "./pages/RedditPage/RedditPostPages/Post3Blog";
 import Post4Blog from "./pages/RedditPage/RedditPostPages/Post4Blog";
+import UsuarioComponent from "./components/TodoComponents/UsuarioComponent";
 
 
 const App = ()=>{
@@ -27,6 +28,8 @@ const App = ()=>{
         <Route path = "/Post2" element={<Post2Blog/>} />
         <Route path = "/Post3" element={<Post3Blog/>} />
         <Route path = "/Post4" element={<Post4Blog/>} />
+        <Route path = "/Todo" element={<UsuarioComponent/>} />
+
 
       </Routes>
     </BrowserRouter>

@@ -13,6 +13,9 @@ import Settings from "./Settings";
 import Timer from "./Timer";
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
+import Music from "../../components/MainViewComponent/Music";
+import UsuarioComponent from "../../components/TodoComponents/UsuarioComponent";
+
 
 export const ThemeContext = createContext(null);
 
@@ -21,6 +24,15 @@ export const ThemeContext = createContext(null);
 const MainView = () => {
   const handle = useFullScreenHandle();
   const [show, toggleShow] = useState(true);
+  const [showMusic, setShowMusic] = useState(false);
+  const toggleMusic = () => {
+    setShowMusic(!showMusic);
+  }
+
+  const [showTodo, setShowTodo] = useState(false);
+  const toggleTodo = () => {
+    setShowTodo(!showTodo);
+  }
 
   //TIMER//
   //Funcion de mostrar TIMER DE POMODORO, le indicamos que showsettings tenga un valor predeterminado de falso que nos servirá para mostrar el timer
@@ -49,12 +61,12 @@ const MainView = () => {
   return (
     <div class="mainViewTimer">
       <FullScreen handle={handle}>
-        <NavBarComponent onButtonClick={enterExitFullscreen}/> 
-        
-          <div class="d-flex ms-auto align-items-center">
-            <MenuComponent/>
-          </div>
+        <NavBarComponent onButtonClick={enterExitFullscreen} />
 
+        <div class="d-flex ms-auto align-items-center">
+          <MenuComponent toggleMusic={toggleMusic} toggleTodo={toggleTodo} />
+
+        </div>
         <div>
           <SettingsContext.Provider
             value={{
@@ -66,10 +78,12 @@ const MainView = () => {
               setWorkMinutes,
               setBreakMinutes,
             }}>
-            {showSettings ? <Settings /> : <Timer class="timer-draggable"/>}
+            {showSettings ? <Settings /> : <Timer class="timer-draggable" />}
+            {showMusic && <Music />}
+            {showTodo && <UsuarioComponent />}
           </SettingsContext.Provider>
         </div>
-        
+
       </FullScreen>
     </div>
   );

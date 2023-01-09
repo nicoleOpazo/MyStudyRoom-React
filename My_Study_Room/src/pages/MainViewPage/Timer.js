@@ -99,7 +99,7 @@ function Timer() {
 
   return (
     <Draggable>
-      <div class=" position-absolute bottom-50 end-50" id="id">
+      <div class=" position-absolute bottom-50 end-50" id="id_Timer">
         <CircularProgressbar
           value={percentage}
           text={minutes + ":" + seconds}

@@ -4,9 +4,9 @@ import { useState } from "react";
 import * as mdb from 'mdb-ui-kit'; //lib
 import Draggable from "react-draggable";
 import Background from "../BackgroundComponents/Background";
+import Music from "./Music";
 
-
-const MenuComponent = () => {
+const MenuComponent = (props) => {
     const [show, toggleShow] = useState(false);
 
     return (
@@ -39,7 +39,7 @@ const MenuComponent = () => {
                     </li>
 
                     <li class="liMenu">
-                        <button
+                        <button onClick={props.toggleTodo}
                             className="btn-menu align-items-center">
                             <i class="fas fa-sliders-h fa-lg"></i>
                             <small style={{ color: 'white' }}>To - Do List</small>
@@ -48,7 +48,7 @@ const MenuComponent = () => {
 
                     <li class="liMenu">
                         <button
-                            className="btn-menu align-items-center">
+                            className="btn-menu align-items-center" onClick={props.toggleMusic}>
                             <i class="fas fa-headphones fa-lg"></i>
                             <small style={{ color: 'white' }}>Música</small>
                         </button>
@@ -66,7 +66,7 @@ const MenuComponent = () => {
                         <button
                             className="btn-menu align-items-center">
                             <i class="fas fa-images fa-lg"></i>
-                            <small><Background/></small>
+                            <small><Background /></small>
                         </button>
                     </li>
 
