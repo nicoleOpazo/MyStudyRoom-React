@@ -11,7 +11,7 @@ function Settings(){
     //Le hacemos un break para que quede uno arriba del otro
     //Y ahora importamos el react-slider, primero lo tenemos que instalar con npm install react-slider
     return(
-        <div class="labelSettings position-absolute bottom-50 end-50" style={{textAlign:'left'}}>
+        <div class="labelSettings  bottom-50 end-50" style={{textAlign:'left'}}>
             <label>work minutes: {settingsInfo.workMinutes}:00 </label>
             <br></br>
 
