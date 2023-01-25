@@ -63,7 +63,7 @@ const NavBarComponent = ({infoButtom, handleOnClick,onButtonClick}) => {
                         <i class="fas fa-expand fa-lg"></i>
                     </button>
                 </div>
-                <ThemeSwitchComponent round={true} />
+                {/* <ThemeSwitchComponent round={true} /> */}
             </div>
         </div>
         /* </FullScreen> */

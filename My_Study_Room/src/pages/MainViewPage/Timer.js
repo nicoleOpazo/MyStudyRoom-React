@@ -9,6 +9,9 @@ import Draggable from "react-draggable";
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const red = "#f54e4e";
 const green = "#4aec8c";
 
@@ -70,6 +73,7 @@ function Timer() {
       }
 
       if (secondsLeftRef.current === 0) {
+        toast("El temporizador ha llegado a 0!", { type: "success" });
         //Si el contador llega a 0 cambiame el modo
 
         return switchMode();
@@ -136,6 +140,7 @@ function Timer() {
             : <PauseButton onClick={() => { setIsPaused(true); isPausedRef.current = true }} />}
 
           <SettingsButton onClick={() => settingsInfo.setShowSettings(true)} />
+          <ToastContainer></ToastContainer>
         </div>
         <div style={{ marginTop: "20px" }}></div>
       </div>
